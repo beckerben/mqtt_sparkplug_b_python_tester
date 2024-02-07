@@ -21,7 +21,7 @@ from sparkplug import sparkplug_b as sparkplug
 from sparkplug.sparkplug_b import *
 
 # Application Variables
-serverUrl = os.getenv("MQTT_SERVER_HOST","fieldgateway01") 
+serverUrl = os.getenv("MQTT_SERVER_HOST","becker14.local") 
 serverPort = os.getenv("MQTT_SERVER_PORT",1883)
 myGroupId = "Sparkplug B Devices"
 myNodeName = "Python Edge Node 1"
