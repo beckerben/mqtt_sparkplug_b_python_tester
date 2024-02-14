@@ -23,8 +23,8 @@ from sparkplug.sparkplug_b import *
 # Application Variables
 serverUrl = os.getenv("MQTT_SERVER_HOST","becker14.local") 
 serverPort = os.getenv("MQTT_SERVER_PORT",1883)
-myGroupId = "Sparkplug B Devices"
-myNodeName = "Python Edge Node 1"
+myGroupId = "BECKER"
+myNodeName = "Emulated Node"
 myDeviceName = "Emulated Device"
 myUsername = os.getenv("MQTT_USERNAME","admin")
 myPassword = os.getenv("MQTT_PASSWORD","")
